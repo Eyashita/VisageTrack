@@ -27,11 +27,6 @@ for path in pathList:
     bucket = storage.bucket()
     blob = bucket.blob(fileName)
     blob.upload_from_filename(fileName)
-
-
-
-    # print(path)
-    # print(os.path.splitext(path)[0])
 print(studentIds)
 
 def findEncodings(imagesList):
@@ -41,7 +36,6 @@ def findEncodings(imagesList):
         encode = face_recognition.face_encodings(img)[0]
         encodeList.append(encode)
     return encodeList
-
 
 print("Encoding started ... ")
 encodeListKnown = findEncodings(imgList)

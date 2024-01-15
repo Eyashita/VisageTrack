@@ -49,6 +49,16 @@ data = {
             "standing": "G",
             "year": 4,
             "last_attendance_time": "2022-12-11 00:02:34"
+        },
+    "20BCI7035":
+        {
+            "name": "Vartika Singh",
+            "major": "AI and ML",
+            "starting_year": 2020,
+            "total_attendance": 0,
+            "standing": "G",
+            "year": 4,
+            "last_attendance_time": "2022-12-11 00:54:34"
         }
 }
 
